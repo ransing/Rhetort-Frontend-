@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+body {
+  background-color: #D3D3D3 !important;
+}
+
+.the-fucking-button:hover
+{
+  background-color: #0bc2fa;
+  color: white;
+  font-weight: bold;
+  font-family: Special Elite
+}
+
+.nick-card
+{
+  transition: 0.17s;
+  font-size: 16 px;
+}
+
+.nick-card:hover
+{
+  box-shadow: 2px 2px 2px black;
+  transform: scale(1.1);
+  transition: 0.17s;
+}
+
+#submit-button:hover
+{
+  background-color: #64e759 !important;
+  font-weight: bold !important;
+}
+
+#submit-button:hover
+{
+  background-color: #64e759 !important;
+  font-weight: bold !important;
+}
+
+.delete-button:hover
+{
+  background-color: #f76a5a !important;
+  font-weight: bold !important;
+}
+
+.like-button:hover
+{
+    -webkit-animation: bounce 1s;
+    animation: bounce 1s;
+    animation-iteration-count: 2;
+}
+
+#title{
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+
+}
+
+#accountbutton:hover{
+  background-color: #cd42bc;
+  font-weight: bold;
+
+}
+
+
+.accountbutton:hover{
+  background-color: #cd42bc;
+  font-weight: bold;
+
+}
+
+#label{
+  font-size: 24 px !important;
+}
+
+    
+/* NavBar */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar {
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+  background-image: linear-gradient(260deg, #080d0f 0%, #c16ecf 100%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 15px;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+  text-align: center;
+}
+
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+.logo1 {
+  width: 40px;
+  height: 40px
+}
+
+.backtoq:hover {
+  background-color: #cd42bc;
+  font-weight: bold;
+}
+/* NavBar ends  */
+
