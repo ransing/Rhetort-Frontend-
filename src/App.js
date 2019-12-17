@@ -125,12 +125,12 @@ class App extends React.Component {
                   </li>
                   <li>
                   
-                  <a href="https://github.com/Bellex0/RetortFort-Backend" class="nav-links">Git Backend </a>
+                  <a href="https://github.com/ransing/Rhetort-Backend-" class="nav-links">Git Backend </a>
                   <i class="fa fa-github" style={{"font-size":"20px"}}></i>
                   </li>
                   <li>
                  
-                    <a href="https://github.com/Bellex0/RetortFort-Frontend" class="nav-links">Git Frontend</a>
+                    <a href="https://github.com/ransing/Rhetort-Frontend-" class="nav-links">Git Frontend</a>
                     
                   </li>
                 </ul>
